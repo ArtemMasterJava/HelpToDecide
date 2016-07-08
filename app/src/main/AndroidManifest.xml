@@ -4,11 +4,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name=".MainActivity" >
+            <activity android:name=".menu_items.About">
+            </activity>
+            <activity android:name=".menu_items.Decide">
+            </activity>
+            <activity android:name=".menu_items.MyDecide">
+        </activity>
+            <activity android:name=".menu_items.Menu_Activity">
+            </activity>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
