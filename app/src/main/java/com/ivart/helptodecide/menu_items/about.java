@@ -14,4 +14,6 @@ public class About extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_layout);
     }
+
+    //rename class from about.class to About.class) Just for commit
 }
