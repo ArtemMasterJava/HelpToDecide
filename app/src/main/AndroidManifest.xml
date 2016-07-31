@@ -9,20 +9,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name=".MainActivity" >
-            <activity android:name=".menu_items.About">
-            </activity>
-            <activity android:name=".menu_items.Decide">
-            </activity>
-            <activity android:name=".menu_items.MyDecide">
-        </activity>
-            <activity android:name=".menu_items.Menu_Activity">
-            </activity>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".menu_items.About"></activity>
+        <activity android:name=".menu_items.Decide"></activity>
+        <activity android:name=".menu_items.MyDecide"></activity>
+        <activity android:name=".menu_items.Menu_Activity"></activity>
     </application>
 
 </manifest>
