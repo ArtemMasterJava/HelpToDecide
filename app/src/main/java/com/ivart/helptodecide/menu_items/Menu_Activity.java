@@ -1,8 +1,7 @@
 package com.ivart.helptodecide.menu_items;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.view.View;
+
 
 /**
  * Created by Artem on 08.07.2016.
