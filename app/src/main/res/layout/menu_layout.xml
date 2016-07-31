@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back2"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Принять решение"
+        android:id="@+id/textView_decide"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.40"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:gravity="center|center_horizontal"
+        android:textColor="#ff0008"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Мои решения"
+        android:id="@+id/textView2_myDecide"
+        android:layout_weight="0.40"
+        android:gravity="center_vertical|center"
+        android:textSize="30dp"
+        android:textColor="#ff0008"
+        android:clickable="true"
+        android:onClick="onClick1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="О нас"
+        android:id="@+id/textView3_about"
+        android:layout_weight="0.20"
+        android:gravity="center_vertical|center"
+        android:textSize="25dp"
+        android:clickable="true"
+        android:onClick="onClick2"/>
+
+</LinearLayout>
