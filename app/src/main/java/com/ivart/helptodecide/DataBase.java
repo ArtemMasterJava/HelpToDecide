@@ -10,19 +10,19 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DataBase extends SQLiteOpenHelper {
 
     public DataBase(Context context) {
-        super(context, "DescisionDB", null,1);
+        super(context, "DecisionDB", null,1);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("create table Squares(id integer primary key autoincrement, " +
-                                            "question text)");
-        db.execSQL("create table Descision(id integer primary key autoincrement, " +
-                                            "descicionTitle text)");
+                                            "question text);");
+        db.execSQL("create table Decision(id integer primary key autoincrement, " +
+                                            "decisionTitle text);");
         db.execSQL("create table Description(id integer primary key autoincrement, " +
-                                            "descision integer, square integer," +
-                                            "FOREIGN KEY(descision) REFERENCES Descision(id)," +
-                                            "FOREIGN KEY(square) REFERNCES Squares(id))");
+                                            "decision integer, square integer," +
+                                            "FOREIGN KEY(decision) REFERENCES Decision(id)," +
+                                            "FOREIGN KEY(square) REFERENCES Squares(id));");
 
         //didn't try to start, just for remember schema
     }
