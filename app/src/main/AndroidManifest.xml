@@ -15,9 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".menu_items.About"></activity>
-        <activity android:name=".menu_items.Decide"></activity>
-        <activity android:name=".menu_items.MyDecide"></activity>
+        <activity android:name=".menu_items.About" />
+        <activity android:name=".menu_items.Decide" />
+        <activity android:name=".menu_items.MyDecide" />
+        <activity android:name=".Description" >
+        </activity>
     </application>
 
 </manifest>
