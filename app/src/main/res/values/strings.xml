@@ -3,4 +3,8 @@
     <string name="make_descision">Принять решение</string>
     <string name="my_solutions">Мои решения</string>
     <string name="about">О нас</string>
+    <string name="will_if_it_happens">Что будет если\n это произойдет?</string>
+    <string name="will_if_it_doesnt_happens">Что будет если\n это НЕ произойдет?</string>
+    <string name="wont_if_it_happens">Что НЕ будет если\n это произойдет?</string>
+    <string name="wont_if_id_doesnt_happens">Что НЕ будет если\n это НЕ произойдет?</string>
 </resources>
