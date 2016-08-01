@@ -16,9 +16,9 @@ public class DataBase extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("create table Squares(id integer primary key autoincrement, " +
-                "                        question text)");
+                                            "question text)");
         db.execSQL("create table Descision(id integer primary key autoincrement, " +
-                "                          descicionTitle text)");
+                                            "descicionTitle text)");
         db.execSQL("create table Description(id integer primary key autoincrement, " +
                                             "descision integer, square integer," +
                                             "FOREIGN KEY(descision) REFERENCES Descision(id)," +
