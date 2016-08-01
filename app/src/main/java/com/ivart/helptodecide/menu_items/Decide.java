@@ -37,6 +37,34 @@ public class Decide extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Decide.this, Description.class);
+                intent.putExtra("Square_0",0);
+                startActivity(intent);
+            }
+        });
+
+        willIfItDoesnt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Decide.this, Description.class);
+                intent.putExtra("Square_0",1);
+                startActivity(intent);
+            }
+        });
+
+        wontIfItHappens.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Decide.this, Description.class);
+                intent.putExtra("Square_0",2);
+                startActivity(intent);
+            }
+        });
+
+        wontIfItDoesnt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Decide.this, Description.class);
+                intent.putExtra("Square_0",3);
                 startActivity(intent);
             }
         });
