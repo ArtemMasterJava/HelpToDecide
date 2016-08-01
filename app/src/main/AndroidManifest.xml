@@ -18,7 +18,6 @@
         <activity android:name=".menu_items.About"></activity>
         <activity android:name=".menu_items.Decide"></activity>
         <activity android:name=".menu_items.MyDecide"></activity>
-        <activity android:name=".menu_items.Menu_Activity"></activity>
     </application>
 
 </manifest>
