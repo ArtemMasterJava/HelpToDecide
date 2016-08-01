@@ -20,7 +20,9 @@ public class DataBase extends SQLiteOpenHelper {
         db.execSQL("create table Decision(id integer primary key autoincrement, " +
                                             "decisionTitle text);");
         db.execSQL("create table Description(id integer primary key autoincrement, " +
-                                            "decision integer, square integer," +
+                                            "decision integer, square integer, " +
+                                            "description text," +
+                                            "rate integer" +
                                             "FOREIGN KEY(decision) REFERENCES Decision(id)," +
                                             "FOREIGN KEY(square) REFERENCES Squares(id));");
 
