@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/accent_material_dark"
+    android:background="@drawable/gradient"
     android:weightSum="1">
 
     <TextView
@@ -14,6 +14,6 @@
         android:textStyle="italic"
         android:textSize="17dp"
         android:layout_weight="0.16"
-        android:textColor="#1100ff"
+        android:textColor="#37373d"
         android:gravity="center" />
 </LinearLayout>
