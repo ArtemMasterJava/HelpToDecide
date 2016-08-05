@@ -62,8 +62,8 @@ public class Description extends AppCompatActivity implements View.OnClickListen
         contentValues.put(DbHelper.KEY_SOLUTION_NAME, title);
         dataBase.insert(DbHelper.TABLE_SOLUTION,null,contentValues);
         contentValues.clear();
-        contentValues.put(DbHelper.KEY_SOLUTION_TEXT,text);
-        contentValues.put(DbHelper.KEY_SOLUTION_PRIORITY,rait);
+//        contentValues.put(DbHelper.KEY_SOLUTION_TEXT,text);
+//        contentValues.put(DbHelper.KEY_SOLUTION_PRIORITY,rait);
         dataBase.insert(DbHelper.TABLE_SOLUTION_DESCRIPTION,null,contentValues);
         Cursor cursor = dataBase.query(dbHelper.TABLE_SOLUTION,null,null,null,null,null,null);
         if(cursor.moveToFirst()){
