@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -16,7 +15,7 @@ import com.ivart.helptodecide.R;
  */
 public class Decide extends Activity implements View.OnClickListener {
 
-    public EditText descriptionTitile;
+    public EditText solutionTitile;
     public Button willIfItHappens;
     public Button willIfItDoesnt;
     public Button wontIfItHappens;
@@ -27,7 +26,7 @@ public class Decide extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.go_to_decide_layout);
 
-        descriptionTitile = (EditText) findViewById(R.id.descisionTitle);
+        solutionTitile = (EditText) findViewById(R.id.descisionTitle);
         willIfItHappens = (Button) findViewById(R.id.btn_will_if_it_happens);
         willIfItDoesnt = (Button) findViewById(R.id.btn_will_if_it_doesnt);
         wontIfItHappens = (Button) findViewById(R.id.btn_wont_if_it_happens);
@@ -39,9 +38,10 @@ public class Decide extends Activity implements View.OnClickListener {
         wontIfItDoesnt.setOnClickListener(this);
     }
 
-    public void startDescriptionActivity(int squareNumber) {
+    public void startDescriptionActivity(int squareNumbere) {
         Intent intent = new Intent(Decide.this, Description.class);
-        intent.putExtra("Square_0", squareNumber);
+        intent.putExtra("Square_0", squareNumbere);
+        intent.putExtra("DescTitle", solutionTitile.getText().toString());
         startActivity(intent);
     }
 
