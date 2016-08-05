@@ -33,7 +33,7 @@ public class DbHelper extends SQLiteOpenHelper {
         db.execSQL("create table "+TABLE_SOLUTION_DESCRIPTION+"("+
                     KEY_ID+" integer, "+
                     KEY_SOLUTION_TEXT+" text, "+
-                    KEY_SOLUTION_PRIORITY+" integer, "+
+                    KEY_SOLUTION_PRIORITY+" real, "+
                     "FOREIGN KEY ("+KEY_ID+") REFERENCES "+TABLE_SOLUTION+"("+KEY_ID+"));");
 
     }
