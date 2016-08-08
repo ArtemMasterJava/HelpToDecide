@@ -5,22 +5,13 @@ package com.ivart.helptodecide;
  */
 
 public class Solution {
-    int id;
+
     String solutionName;
 
     public Solution(){}
 
     public Solution(String solutionName) {
         this.solutionName = solutionName;
-    }
-
-    public int getId() {
-
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getSolutionName() {
