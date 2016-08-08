@@ -12,4 +12,6 @@
     <string name="btn_add_description">Добавить</string>
     <string name="enter_description">Введите описание</string>
     <string name="choose_importance">Выберите важность:</string>
+    <string name="solution_name_dialog">Введите вопрос:</string>
+    <string name="create_solution">Создать решение</string>
 </resources>
