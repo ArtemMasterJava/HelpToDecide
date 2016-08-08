@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void onClick(View view) {
-        Intent intent = new Intent(MainActivity.this, Decide.class);
+        Intent intent = new Intent(MainActivity.this, SolutionTitleDialog.class);
         startActivity(intent);
     }
 
