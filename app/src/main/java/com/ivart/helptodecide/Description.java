@@ -39,7 +39,7 @@ public class Description extends AppCompatActivity implements View.OnClickListen
         addDescription = (Button)findViewById(R.id.addDescription);
         addDescription.setOnClickListener(this);
 
-        Toast.makeText(this,"" + squareNumber,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"" + solutionId,Toast.LENGTH_SHORT).show();
     }
 
     @Override
