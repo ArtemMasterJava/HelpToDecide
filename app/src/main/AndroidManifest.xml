@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ivart.helptodecide" >
+    package="com.ivart.helptodecide">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,8 +18,8 @@
         <activity android:name=".menu_items.About" />
         <activity android:name=".menu_items.Decide" />
         <activity android:name=".menu_items.MyDecide" />
-        <activity android:name=".Description" >
-        </activity>
+        <activity android:name=".Description"></activity>
+        <activity android:name=".SolutionTitleDialog"></activity>
     </application>
 
 </manifest>
