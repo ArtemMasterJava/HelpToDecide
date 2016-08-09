@@ -1,4 +1,4 @@
-package com.ivart.helptodecide;
+package com.ivart.helptodecide.data.solution;
 
 /**
  * Created by Ivan on 8/8/2016.

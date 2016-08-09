@@ -1,4 +1,4 @@
-package com.ivart.helptodecide;
+package com.ivart.helptodecide.data.solution;
 
 /**
  * Created by Ivan on 8/8/2016.
@@ -7,6 +7,8 @@ package com.ivart.helptodecide;
 public class Solution {
 
     String solutionName;
+
+    int id;
 
     public Solution(){}
 
@@ -20,5 +22,13 @@ public class Solution {
 
     public void setSolutionName(String solutionName) {
         this.solutionName = solutionName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

@@ -1,4 +1,4 @@
-package com.ivart.helptodecide;
+package com.ivart.helptodecide.data.solution;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.ivart.helptodecide.R;
+import com.ivart.helptodecide.data.DbHelper;
 import com.ivart.helptodecide.menu_items.Decide;
 
 public class SolutionTitleDialog extends Activity {

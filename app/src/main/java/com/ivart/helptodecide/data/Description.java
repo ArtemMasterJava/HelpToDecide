@@ -1,18 +1,16 @@
-package com.ivart.helptodecide;
+package com.ivart.helptodecide.data;
 
-import android.app.Activity;
-import android.content.ContentValues;
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RatingBar;
 import android.widget.Toast;
+
+import com.ivart.helptodecide.R;
+import com.ivart.helptodecide.data.solution.SolutionDescription;
 
 public class Description extends AppCompatActivity implements View.OnClickListener {
 
