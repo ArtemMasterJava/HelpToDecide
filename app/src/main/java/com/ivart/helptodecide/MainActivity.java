@@ -20,6 +20,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView mButton2;
 
     @Override
+    public void onRestart(){
+        super.onRestart();
+        setContentView(R.layout.menu_layout);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu_layout);
@@ -51,7 +57,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }, 2200);
     }
-
 
 
     public void onClick1(View view) {
