@@ -5,10 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
-import com.ivart.helptodecide.DbHelper;
-import com.ivart.helptodecide.Description;
+import com.ivart.helptodecide.data.DbHelper;
+import com.ivart.helptodecide.data.Description;
 import com.ivart.helptodecide.R;
 
 /**

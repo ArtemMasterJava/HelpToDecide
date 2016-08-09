@@ -18,8 +18,8 @@
         <activity android:name=".menu_items.About" />
         <activity android:name=".menu_items.Decide" />
         <activity android:name=".menu_items.MyDecide" />
-        <activity android:name=".Description"></activity>
-        <activity android:name=".SolutionTitleDialog"></activity>
+        <activity android:name=".data.Description"></activity>
+        <activity android:name=".data.solution.SolutionTitleDialog"></activity>
     </application>
 
 </manifest>
