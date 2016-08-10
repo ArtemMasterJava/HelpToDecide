@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView mButton2;
 
     @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
     public void onRestart(){
         super.onRestart();
         setContentView(R.layout.menu_layout);
