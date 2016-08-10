@@ -17,3 +17,4 @@ public class About extends Activity{
 
     //rename class from about.class to About.class) Just for commit
 }
+
